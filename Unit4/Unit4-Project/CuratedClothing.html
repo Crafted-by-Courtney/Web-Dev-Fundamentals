@@ -4,6 +4,7 @@
 <head>
     <link rel="stylesheet" href="carousel.css" />
     <script src="carousel.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
@@ -47,7 +48,21 @@
             <span aria-hidden="true">&times;</span>
           </button>
     </div>
-
+    <div class="wrap">
+        <h2>Log In With</h2>
+        <div class="login_options">
+            <button class="login_buttons"><a href="www.facebook.com/mypage"><i class="fa fa-facebook"></i> Facebook</a></button>
+            <button class="login_buttons"><a href="#"><i class="fa fa-google"></i> Google</a></button>
+        </div>
+        <form>
+            <label>Username:</label><br>
+            <input type="text">
+            <label>Password:</label><br>
+            <input type="password">
+            <input type="submit" value="Log In">
+        </form>
+        <p> Not a Member?<a href="#"> Sign Up Now</a></p>
+    </div>
     <div class="carousel">
         <button class="carousel__button previous" id="previous"><</button>
         <div class="carousel__images">

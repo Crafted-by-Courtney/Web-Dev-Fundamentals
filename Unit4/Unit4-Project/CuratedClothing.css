@@ -230,3 +230,91 @@ article p {
 .input {
     width: 75px;
 }
+
+.wrap {
+    max-width: 400px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    font-family: sans-serif;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.login_buttons {
+    padding: 10px;
+    width: 49%;
+    box-sizing: border-box;
+    border: none;
+    font-size: 1.3em;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.login_buttons a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.login_buttons:nth-child(1) {
+    background: #eaa8b7;
+}
+
+.login_buttons:nth-child(2) {
+    background: #9cc7df;
+}
+
+.login_buttons:hover {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.fa {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+form {
+    margin-top: 30px;
+}
+
+input[type=text],
+input[type=password],
+input[type=submit] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 17px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    border: 2px solid gray;
+}
+
+label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input[type=submit] {
+    background: #c0cfb2;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background: #8ba989;
+}
+
+p {
+    text-align: center;
+}
+
+p a {
+    text-decoration: none;
+    font-weight: bold;
+}
